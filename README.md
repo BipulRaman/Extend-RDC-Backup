@@ -26,5 +26,9 @@ This PowerShell script will read the current backup and extend the backup with a
 7. User your output backup file and Restore the new backup on Remote Desktop Connections App
     ![Restore](Images/Screenshot03.png)
 
+### FAQs:
+- `Que :`There are several XML based Remote Desktop Connection Manager. Why we should not use that? 
+- `Ans :`To exploit the vulnerability, an attacker could create an RDG file containing specially crafted XML content and convince an authenticated user to open the file. Reference : Microsoft Security Blog : [https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2020-0765](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2020-0765)
+
 ### License
 All files within this repo are released under the [MIT (OSI) License]( https://en.wikipedia.org/wiki/MIT_License) as per the [LICENSE file](https://github.com/BipulRaman/Extend-RDC-Backup/blob/master/LICENSE) stored in the root of this repo.
