@@ -23,9 +23,8 @@ This PowerShell script will read the current backup and extend the backup with a
     |$RDCGroupName | `Group` name from `Step #2` |
     |$RDCUserAccountName | `User account` from `Step #2` |
     |$OutputRDCBackupFile | Your output backup file which should be in `*.rdb` format |
-1. User your output backup file and Restore the new backup on Remote Desktop Connections App.
+1. User your output backup file and Restore the new backup on Remote Desktop Connections App
     :::image type="content" source="Images/Screenshot03.png" alt-text="Backup":::
 
 ### License
 All files within this repo are released under the [MIT (OSI) License]( https://en.wikipedia.org/wiki/MIT_License) as per the [LICENSE file](https://github.com/BipulRaman/Extend-RDC-Backup/blob/master/LICENSE) stored in the root of this repo.
-
