@@ -13,8 +13,8 @@
 Param(
   [string] $VMDetailsInputFile = 'Extend_RDC_Backup.Input.csv',
   [string] $InputRDCBackupFile = 'InputRDCBackup.rdb',
-  [string] $RDCGroupName = 'CAT',
-  [string] $RDCUserAccountName = 'CAT-VMs',
+  [string] $RDCGroupName = 'Sample',
+  [string] $RDCUserAccountName = 'SampleAccount',
   [string] $OutputRDCBackupFile = 'OutputRDCBackup.rdb'
 )
 
