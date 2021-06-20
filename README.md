@@ -28,7 +28,10 @@ This PowerShell script will read the current backup and extend the backup with a
 
 ### FAQs:
 - `Que :`There are several XML based Remote Desktop Connection Manager. Why we should not use that? 
-- `Ans :`To exploit the vulnerability, an attacker could create an RDG file containing specially crafted XML content and convince an authenticated user to open the file. Reference : Microsoft Security Blog : [https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2020-0765](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2020-0765)
+    - `Ans :`To exploit the vulnerability, an attacker could create an RDG file containing specially crafted XML content and convince an authenticated user to open the file. 
+- Reference : 
+    - Microsoft Security Blog : [https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2020-0765](https://msrc.microsoft.com/update-guide/en-US/vulnerability/CVE-2020-0765)
+    - Microsoft Docs : [https://docs.microsoft.com/en-us/troubleshoot/windows-client/remote/use-mstsc-universal-remote-desktop-client-instead-rdman](https://docs.microsoft.com/troubleshoot/windows-client/remote/use-mstsc-universal-remote-desktop-client-instead-rdman)
 
 ### License
 All files within this repo are released under the [MIT (OSI) License]( https://en.wikipedia.org/wiki/MIT_License) as per the [LICENSE file](https://github.com/BipulRaman/Extend-RDC-Backup/blob/master/LICENSE) stored in the root of this repo.
