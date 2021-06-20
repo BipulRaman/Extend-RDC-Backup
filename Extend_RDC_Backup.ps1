@@ -1,21 +1,11 @@
 <#
 .SYNOPSIS
-  <Overview of script>
+  A solution to add VMs in bulk to Microsoft Remote Desktop Windows Store App.
 .DESCRIPTION
-  <Brief description of script>
-.PARAMETER ParametersFile
-  <Brief description of parameter input required. Repeat this attribute if required>
-.INPUTS
-  <Inputs if any, otherwise state None>
-.OUTPUTS
-  <Outputs if any, otherwise state None - example: Log file stored in C:\Windows\Temp\<name>.log>
+  Microsoft Remote Desktop (From Windows Store App) currently do not support bulk addition of VMs. However there is a way to restore VMs from Backup. This PowerShell script will read the current backup and extend the backup with additional required VM entries from CSV input file.
+  Please refer to ReadMe file at https://github.com/BipulRaman/Extend-RDC-Backup for more details about execution steps, inputs and output.
 .NOTES
-  Created by: Bipul Raman @BipulRaman
-  Modified by: Bipul Raman @BipulRaman
-  Modified: 12/22/2018 02:26 PM IST
-  Purpose/Change: Initial script development
-.EXAMPLE
-  <Example goes here. Repeat this attribute for more than one example>
+  Scripted with ♥ in India by Bipul Raman @BipulRaman
 #>
 
 #-------------------[PARAMETERS]-------------------
