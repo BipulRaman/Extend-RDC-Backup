@@ -28,3 +28,4 @@ This PowerShell script will read the current backup and extend the backup with a
 
 ### License
 All files within this repo are released under the [MIT (OSI) License]( https://en.wikipedia.org/wiki/MIT_License) as per the [LICENSE file](https://github.com/BipulRaman/Extend-RDC-Backup/blob/master/LICENSE) stored in the root of this repo.
+
