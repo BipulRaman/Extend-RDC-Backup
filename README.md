@@ -7,7 +7,7 @@ Microsoft Remote Desktop (From Windows Store App) currently do not support bulk 
 ### Solution Approach
 This PowerShell script will read the current backup and extend the backup with additional required VM entries from CSV input file.
 
-### Steps
+### Steps:
 1. Create a new Connection manually for one of the VM
     ![Backup](Images/Screenshot01.png)
 1. Make a note of `User account`, `Group`, we will use it in the parameter of the PowerShell Script.
