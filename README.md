@@ -34,4 +34,4 @@ This PowerShell script will read the current backup and extend the backup with a
     - Microsoft Docs : [https://docs.microsoft.com/en-us/troubleshoot/windows-client/remote/use-mstsc-universal-remote-desktop-client-instead-rdman](https://docs.microsoft.com/troubleshoot/windows-client/remote/use-mstsc-universal-remote-desktop-client-instead-rdman)
 
 ### License
-All files within this repo are released under the [MIT (OSI) License]( https://en.wikipedia.org/wiki/MIT_License) as per the [LICENSE file](https://github.com/BipulRaman/Extend-RDC-Backup/blob/master/LICENSE) stored in the root of this repo.
+All files within this repo are released under the [MIT (OSI) License]( https://en.wikipedia.org/wiki/MIT_License) as per the [LICENSE file](https://github.com/BipulRaman/Extend-RDC-Backup/blob/main/LICENSE) stored in the root of this repo.
